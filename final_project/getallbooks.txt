@@ -1,1 +1,14 @@
 curl http://localhost:5000/books
+
+{
+  "1234567890": {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K.Rowling",
+    "reviews": {}
+  },
+  "0987654321": {
+    "title": "The Hobbit",
+    "author": "J.R.R.Tolkien",
+    "reviews": {}
+  }
+}

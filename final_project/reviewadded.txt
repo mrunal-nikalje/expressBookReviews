@@ -1,1 +1,8 @@
 curl -X PUT http://localhost:5000/review/1234567890 -H "Content-Type: application/json" -d '{"username":"newuser","review":"Great book!"}'
+
+{
+  "message":"Review added/updated successfully.",
+  "reviews":{
+    "newuser":"Great book!"
+  }
+}
